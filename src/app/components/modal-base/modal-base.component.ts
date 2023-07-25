@@ -5,10 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './modal-base.component.html',
   styleUrls: ['./modal-base.component.scss'],
 })
-export class ModalBaseComponent  implements OnInit {
+export class ModalBaseComponent implements OnInit {
+  rootPage: any;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {}
-
 }
